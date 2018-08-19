@@ -1,6 +1,18 @@
 # Custom Cleave Library
 
-This library was made by [Abit Gray](https://github.com/AbitTheGray/) to make Cleave not ignore armor (or how it will be customized).
+This library was made for Cleave to not ignore armor (or how it will be customized).
+
+## Files
+
+- [`cleave_library.lua`](cleave_library.lua) = Main library logic
+
+Add this to your `addon_unit.lua`
+```lua
+-- Library for not-pure cleave (server-side only)
+if IsServer() then
+  require("libraries/cleave_library")
+end
+```
 
 ## Functions
 
@@ -18,6 +30,16 @@ CDOTABaseAbility:PerformCleaveOnAttack(event, cleaveInfo, damageMult, soundName,
 - `hitSoundName` = string, sound played on every enemy hit by cleave
 - `particleNameCleave` = string, particle to show for the cleave
 - `particleNameHit` = string, particle to show on enemies hit by cleave
+
+Does not work
+- for illusions (still play sound and show particle when provided)
+- on (or to) allies, towers, barracks, buildings and wards
+- with BREAK effect ( unit:PassivesDisabled() )
+- if event == nil or event.target == nil or event.target ~= self:GetParent()
+- on Monkey King's Boundless Strike
+
+Note:
+- Phantom Assassin always cleaves from target (for her dagger to perform Cleave from target)
 
 ### On Unit
 ```lua

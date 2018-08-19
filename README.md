@@ -117,8 +117,9 @@
 
 ## Libraries
 
- - ~~[Talents](Libraries/Talents/README.md)~~
- - ~~[Cleave](Libraries/Cleave/README.md)~~
+ - [Talents](Libraries/Talents/README.md)
+ - [Cleave](Libraries/Cleave/README.md)
+   - [Cleave Talents](Libraries/Cleave_Talents/README.md)
 
 ## GUI (Panorama)
  - ~~[Hero Picking Screen](GUI_Panorama/Hero_Picking_Screen/README.md)~~
