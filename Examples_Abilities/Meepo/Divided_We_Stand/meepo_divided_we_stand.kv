@@ -1,0 +1,49 @@
+"DOTAAbilities"
+{
+  //=================================================================================================================
+  // Ability: Meepo, Divided we stand
+  //=================================================================================================================
+  "meepo_divided_we_stand"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "BaseClass"                                           "ability_lua"
+    "ScriptFile"                                          "abilities/meepo/meepo_divided_we_stand.lua"
+
+    "AbilityTextureName"                                  "meepo_divided_we_stand"
+
+    "ID"                                                  "5433"
+
+    "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					                                "DOTA_ABILITY_TYPE_ULTIMATE"
+
+    "FightRecapLevel"                                     "1"
+
+    "MaxLevel"                                            "3"
+    "LevelsBetweenUpgrades"                               "7"
+    "RequiredLevel"                                       "3"
+    "HotKeyOverride"                                      "G"
+
+		"HasScepterUpgrade"			                              "1"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"		                            "ACT_DOTA_CAST_ABILITY_4"
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+			"01"
+			{
+				"var_type"				        "FIELD_INTEGER"
+				"clones"		              "1 2 3"
+			}
+			"02"
+			{
+				"var_type"				        "FIELD_INTEGER"
+				"scepter_clones"		      "2 3 4"
+			}
+    }
+  }
+}

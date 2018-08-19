@@ -12,4 +12,4 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 
 [*tooltip*]
-charset = utf-16le-bom
+charset = utf-16le

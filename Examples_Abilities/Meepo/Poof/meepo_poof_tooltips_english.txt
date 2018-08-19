@@ -1,0 +1,7 @@
+"DOTA_Tooltip_ability_meepo_poof"							      	"Poof"
+"DOTA_Tooltip_ability_meepo_poof_Description"					"Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations."
+"DOTA_Tooltip_ability_meepo_poof_Lore"						  	"Sometimes breaking one of the Riftshadow Crystals can be just the trick for getting yourself out of a bind.  Or your other self."
+"DOTA_Tooltip_ability_meepo_poof_Note0"						  	"Can be cast through the minimap."
+"DOTA_Tooltip_ability_meepo_poof_Note1"					  		"Can teleport to Meepo illusions."
+"DOTA_Tooltip_ability_meepo_poof_radius"				  		"RADIUS:"
+"DOTA_Tooltip_ability_meepo_poof_poof_damage"					"POOF DAMAGE:"
