@@ -18,7 +18,9 @@
 - ~~[Custom Item](Tutorials/Custom_Item/README.md)~~
 - ~~[Custom Hero](Tutorials/Custom_Hero/README.md)~~
 - ~~[Custom Autocast Ability](Tutorials/Custom_Autocast_Ability/README.md)~~
-- ~~[Custom Passive Ability](Tutorials/Custom_Aura_Ability/README.md)~~
+- ~~[Custom Aura Ability](Tutorials/Custom_Aura_Ability/README.md)~~
+- ~~[Custom Shillshot Ability](Tutorials/Custom_Aura_Ability/README.md)~~
+- ~~[Tooltips](Tutorials/Custom_Autocast_Ability/README.md)~~
 
 ## Important links
 
