@@ -39,6 +39,12 @@
   - [API](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Scripting/API)
   - [Addon Overview](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Addon_Overview)
   - [Panorama](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama)
+- [Images](https://dota2.gamepedia.com/Category:Dota_2_images)
+  - [Ability Icons](https://dota2.gamepedia.com/Category:Ability_icons)
+  - [Hero Icons](https://dota2.gamepedia.com/Category:Hero_icons)
+  - [Unit Icons](https://dota2.gamepedia.com/Category:Unit_icons)
+  - [Item Icons](https://dota2.gamepedia.com/Category:Item_icons)
+  - [Low Violence](https://dota2.gamepedia.com/Category:Low_Violence)
 
 ## Other GITs
 
