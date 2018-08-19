@@ -38,6 +38,14 @@
   - [Addon Overview](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Addon_Overview)
   - [Panorama](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama)
 
+## Other GITs
+
+- [Open Angel Arena](https://github.com/OpenAngelArena/oaa/) (OAA)
+- [EarthSalamander42's Dota IMBA](https://github.com/EarthSalamander42/dota_imba)
+- [ModDota's Lua Spell Library](https://github.com/ModDota/AbilityLuaSpellLibrary)
+- [Pizzalol's Spell Library](https://github.com/Pizzalol/SpellLibrary)
+- [DrTeaSpoon's Dota 2 Overflow](https://github.com/DrTeaSpoon/Dota2Overflow)
+
 ## Examples
 
 ### Abilities
