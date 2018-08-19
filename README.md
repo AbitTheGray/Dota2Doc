@@ -27,15 +27,15 @@
 - [npc_heroes.txt](https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/master/game/dota/scripts/npc/npc_heroes.txt)
 - [npc_abilities.txt](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/scripts/npc/npc_abilities.txt)
 - [npc_units.txt](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/scripts/npc/npc_units.txt)
-- [dota.fdg](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/dota.fgd)
 - [dota_english.txt](https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/master/game/dota/resource/dota_english.txt)
 - [All Dota 2 Translations](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/game/dota/resource)
+- [dota.fdg](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/dota.fgd)
 - [Item Builds](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/game/dota/itembuilds)
 - Addon Template
   - [`game/`](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/game/dota_addons/addon_template)
   - [`content/`](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/content/dota_addons/addon_template)
 - [Hero Sounds](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/game/dota/pak01_dir/soundevents/game_sounds_heroes)
-- Official
+- [Official](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/)
   - [API](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Scripting/API)
   - [Addon Overview](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Addon_Overview)
   - [Panorama](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama)
