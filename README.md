@@ -82,10 +82,10 @@
 - Magnus = `npc_dota_hero_magnataur`
   - [Empower](Examples_Abilities/Magnataur/Empower/README.md)
 - Meepo = `npc_dota_hero_meepo`
-  - ~~[Earthbind](Examples_Abilities/Meepo/Earthbind/README.md)~~
-  - ~~[Poof](Examples_Abilities/Meepo/Poof/README.md)~~
-  - ~~[Geostrike](Examples_Abilities/Meepo/Geostrike/README.md)~~
-  - ~~[Divided We Stand](Examples_Abilities/Meepo/Divided_We_Stand/README.md)~~
+  - [Earthbind](Examples_Abilities/Meepo/Earthbind/README.md)
+  - [Poof](Examples_Abilities/Meepo/Poof/README.md)
+  - [Geostrike](Examples_Abilities/Meepo/Geostrike/README.md)
+  - [Divided We Stand](Examples_Abilities/Meepo/Divided_We_Stand/README.md)
 - Mirana = `npc_dota_hero_mirana`
   - ~~[Starfall](Examples_Abilities/Mirana/Starfall/README.md)~~
   - [Sacred Arrow](Examples_Abilities/Mirana/Sacred_Arrow/README.md)
