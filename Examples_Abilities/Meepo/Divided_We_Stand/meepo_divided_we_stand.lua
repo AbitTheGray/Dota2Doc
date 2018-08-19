@@ -100,6 +100,7 @@ function meepo_divided_we_stand:OnUpgrade()
   end
 
   -- Create new Meepo at nearest clear space
+  --TODO async
   local newMeepo = CreateUnitByName(GetUnitName(caster), mainMeepo:GetAbsOrigin(), true, mainMeepo, mainMeepo:GetPlayerOwner(), mainMeepo:GetTeamNumber())
   newMeepo:SetControllableByPlayer(mainMeepo:GetPlayerOwnerID(), false)
   newMeepo:SetOwner(caster.GetOwner())
@@ -108,9 +109,10 @@ function meepo_divided_we_stand:OnUpgrade()
   --newMeepo:AddNewModifier(mainMeepo,self,"modifier_phased",{["duration"]=0.1})
 
   -- Add to Meepo clones list
-  mainMeepo.clones[#mainMeepo.clones] = newMeepo
+  table.insert(mainMeepo.clones, newMeepo)
 
-  --TODO Add Meepo clone buff
+  -- Add Meepo clone buff
+  newMeepo.AddNewModifier(mainMeepo, self:GetAbility(), "modifier_meepo_clone", {})
 
   -- Replace clone functions
   newMeepo.IsClone = function() return true end
@@ -140,6 +142,7 @@ function meepo_divided_we_stand:OnUpgrade()
     end
   end
 
+  return true
 
 end
 
@@ -147,27 +150,14 @@ end
 function meepo_divided_we_stand:OnInventoryContentsChanged()
   local caster = self:GetCaster()
 
-  if caster:IsIllusion() or caster:HasMOdifier("modifier_meepo_clone") then
+  if caster:IsIllusion() or caster:HasModifier("modifier_meepo_clone") then
     return
   end
 
   if not self.isScepterUpgraded and caster:HasScepter() then
     for i=0,5,1 do
       local item = self.GetCaster().GetItemInSlot(i)
-      if item and
-      (
-        item.GetAbilityName() == "item_ultimate_scepter"
-        or
-        item.GetAbilityName() == "item_ultimate_scepter_1"
-        or
-        item.GetAbilityName() == "item_ultimate_scepter_2"
-        or
-        item.GetAbilityName() == "item_ultimate_scepter_3"
-        or
-        item.GetAbilityName() == "item_ultimate_scepter_4"
-        or
-        item.GetAbilityName() == "item_ultimate_scepter_5"
-      ) then
+      if item and string.match(item.GetAbilityName(), "item_ultimate_scepter(_[0-9]+)?") then
 
         if self:OnUpgrade() then
           item:SetDroppable(false)
