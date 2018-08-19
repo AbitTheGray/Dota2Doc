@@ -1,0 +1,16 @@
+"DOTA_Tooltip_ability_kunkka_tidebringer"                           "Tidebringer"
+"DOTA_Tooltip_ability_kunkka_tidebringer_Description"               "Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike.<br/><br/><font color='#FFA500'>Cleave no longer pierces armor.</font>"
+"DOTA_Tooltip_ability_kunkka_tidebringer_Lore"                      "A lost Claddish soul inhabits Kunkka's trusty Tidebringer, empowering it to destroy demons of the Cataract."
+"DOTA_Tooltip_ability_kunkka_tidebringer_Note0"                     "Cleave damage is reduced by both armor type and armor value." // replaces "Cleave damage is reduced by armor type but not by armor value."
+"DOTA_Tooltip_ability_kunkka_tidebringer_Note1"                     "Cleave damage goes through spell immunity."
+"DOTA_Tooltip_ability_kunkka_tidebringer_damage_bonus"              "DAMAGE BONUS:""
+"DOTA_Tooltip_ability_kunkka_tidebringer_cleave_damage"             "%CLEAVE DAMAGE:"
+
+"DOTA_Tooltip_modifier_kunkka_tidebringer_passive"						      "Tidebringer"
+"DOTA_Tooltip_modifier_kunkka_tidebringer_passive_Description"			"Provides functionality to Kunkka's Tidebringer."
+
+"DOTA_Tooltip_modifier_kunkka_tidebringer_cooldown"						      "Tidebringer On Cooldown"
+"DOTA_Tooltip_modifier_kunkka_tidebringer_cooldown_Description"			"Ability is on cooldown."
+
+"DOTA_Tooltip_modifier_kunkka_tidebringer_weapon_effect"						 "Weapon Effect of Tidebringer"
+"DOTA_Tooltip_modifier_kunkka_tidebringer_weapon_effect_Description" "Provides visual effect on Kunkka's Weapon while Tidebringer is off cooldown."

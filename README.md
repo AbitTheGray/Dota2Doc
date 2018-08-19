@@ -52,50 +52,54 @@
 
 ### Abilities
 
-- Ancient Apparition
+- Ancient Apparition = `npc_dota_hero_ancient_apparition`
   - ~~[Cold Feet](Examples_Abilities/Ancient_Apparition/Cold_Feet_Single/README.md) (Single)~~
   - ~~[Cold Feet](Examples_Abilities/Ancient_Apparition/Cold_Feet_AoE/README.md) (AoE)~~
   - ~~[Ice Vortex](Examples_Abilities/Ancient_Apparition/Ice_Vortex/README.md)~~
   - ~~[Chilling Touch](Examples_Abilities/Ancient_Apparition/Chilling_Touch/README.md)~~
   - ~~[Ice Blast](Examples_Abilities/Ancient_Apparition/Ice_Blast/README.md)~~
-- Anti-Mage
+- Anti-Mage = `npc_dota_hero_antimage`
   - ~~[Mana Break](Examples_Abilities/Anti_Mage/Mana_Break/README.md)~~
   - ~~[Blink](Examples_Abilities/Anti_Mage/Blink/README.md)~~
   - ~~[Spell Shield](Examples_Abilities/Anti_Mage/Spell_Shield/README.md)~~
   - ~~[Mana Void](Examples_Abilities/Anti_Mage/Mana_Void/README.md)~~
-- Io / Wisp
+- Io = `npc_dota_hero_wisp`
   - ~~[Teather](Examples_Abilities/Io/Teather/README.md)~~
   - ~~[Spirits](Examples_Abilities/Io/Spirits_Toggle/README.md) (Toggle)~~
   - ~~[Spirits](Examples_Abilities/Io/Spirits_Dynamic/README.md) (Dynamic)~~
   - ~~[Overcharge](Examples_Abilities/Io/Overcharge/README.md)~~
   - ~~[Relocate](Examples_Abilities/Io/Relocate_Channel/README.md) (Channel)~~
   - ~~[Relocate](Examples_Abilities/Io/Relocate_Delay/README.md) (Delay)~~
-- Kunkka
+- Kunkka = `npc_dota_hero_kunkka`
   - [Tidebringer](Examples_Abilities/Kunkka/Tidebringer/README.md)
-- Legion Commander
+- Legion Commander = `npc_dota_hero_legion_commander`
   - ~~[Duel](Examples_Abilities/LegionCommander/Duel/README.md)~~
-- Life Stealer
+- Lifestealer = `npc_dota_hero_life_stealer`
   - ~~[Infest](Examples_Abilities/LifeStealer/Infest/README.md)~~
-- Meepo
+- Magnus = `npc_dota_hero_magnataur`
+  - [Empower](Examples_Abilities/Magnataur/Empower/README.md)
+- Meepo = `npc_dota_hero_meepo`
   - ~~[Earthbind](Examples_Abilities/Meepo/Earthbind/README.md)~~
   - ~~[Poof](Examples_Abilities/Meepo/Poof/README.md)~~
   - ~~[Geostrike](Examples_Abilities/Meepo/Geostrike/README.md)~~
   - ~~[Divided We Stand](Examples_Abilities/Meepo/Divided_We_Stand/README.md)~~
-- Mirana
+- Mirana = `npc_dota_hero_mirana`
   - ~~[Starfall](Examples_Abilities/Mirana/Starfall/README.md)~~
   - [Sacred Arrow](Examples_Abilities/Mirana/Sacred_Arrow/README.md)
-- Phantom Assassin
+- Phantom Assassin = `npc_dota_hero_phantom_assassin`
   - ~~[Stifling Dagger](Examples_Abilities/Phantom_Assassin/Stifling_Dagger/README.md)~~
   - ~~[Phantom Strike](Examples_Abilities/Phantom_Assassin/Phantom_Strike/README.md)~~
   - ~~[Blur](Examples_Abilities/Phantom_Assassin/Blur/README.md)~~
   - ~~[Coup de Grace](Examples_Abilities/Phantom_Assassin/Coup_de_Grace/README.md)~~
-- Windranger
+- Sven = `npc_dota_hero_sven`
+  - [Great Cleave](Examples_Abilities/Sven/Great_Cleave/README.md)
+- Windranger = `npc_dota_hero_windrunner`
   - ~~[Shackleshot](Examples_Abilities/Windranger/Shackleshot/README.md)~~
   - ~~[Powershot](Examples_Abilities/Windranger/Powershot/README.md)~~
-- Wraith King
+- Wraith King = `npc_dota_hero_skeleton_king`
   - ~~[Vampiric Aura](Examples_Abilities/Wraith_King/Vampiric_Aura/README.md)~~
   - ~~[Reincarnation](Examples_Abilities/Wraith_King/Reincarnation/README.md)~~
-- Winter Wyvern
+- Winter Wyvern = `npc_dota_hero_winter_wyvern`
   - ~~[Arctic Burn](Examples_Abilities/Winter_Wyvern/Arctic_Burn/README.md)~~
   - ~~[Winger's Curse](Examples_Abilities/Winter_Wyvern/Winters_Curse/README.md)~~
 

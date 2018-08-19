@@ -1,0 +1,13 @@
+"DOTA_Tooltip_ability_magnataur_empower_oaa"                            "Empower"
+"DOTA_Tooltip_ability_magnataur_empower_oaa_Description"                "Gives an allied unit bonus damage and cleave on attack.<br/><br/><font color='#FFA500'>Cleave no longer pierces armor.</font>"
+"DOTA_Tooltip_ability_magnataur_empower_oaa_Lore"                       "With a deep bellow, Magnus displays his true power."
+"DOTA_Tooltip_ability_magnataur_empower_oaa_Note0"                      "The bonus damage is based only on base damage and damage from primary attributes."
+"DOTA_Tooltip_ability_magnataur_empower_oaa_Note1"                      "Cleave damage is reduced by both armor type and armor value." // replaced "Cleave damage is reduced by armor type but not by armor value."
+"DOTA_Tooltip_ability_magnataur_empower_oaa_Note2"                      "Cleave damage goes through spell immunity."
+"DOTA_Tooltip_ability_magnataur_empower_oaa_Note3"                      "Ranged units cannot Cleave."
+"DOTA_Tooltip_ability_magnataur_empower_oaa_empower_duration"           "DURATION:"
+"DOTA_Tooltip_ability_magnataur_empower_oaa_bonus_damage_pct"           "%BONUS DAMAGE:"
+"DOTA_Tooltip_ability_magnataur_empower_oaa_cleave_damage_pct"          "%CLEAVE DAMAGE:"
+
+"DOTA_Tooltip_modifier_magnataur_empower_oaa_buff"						          "Empower"
+"DOTA_Tooltip_modifier_magnataur_empower_oaa_buff_Description"			    "Base damage increased by %dMODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE%%%, gaining %dMODIFIER_PROPERTY_TOOLTIP%%% cleave damage on hit."

@@ -8,7 +8,12 @@
     // General
     //-------------------------------------------------------------------------------------------------------------
     "BaseClass"                                           "ability_lua"
-    "ID"                                                  "5048" // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "ScriptFile"                                          "abilities/mirana/mirana_arrow.lua"
+
+    "AbilityTextureName"                                  "mirana_arrow"
+
+    "ID"                                                  "5048" // unique ID number, do not change
+
     "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
     "AbilityUnitDamageType"                               "DAMAGE_TYPE_MAGICAL"
     "AbilityUnitTargetTeam"							               	  "DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -16,10 +21,11 @@
     "AbilityUnitTargetFlags"						 	                "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
     "SpellImmunityType"                                   "SPELL_IMMUNITY_ENEMIES_NO"
     "SpellDispellableType"                                "SPELL_DISPELLABLE_YES_STRONG"
-    "FightRecapLevel"                                     "1"
-    "AbilityTextureName"                                  "mirana_arrow"
-    "ScriptFile"                                          "abilities/mirana_arrow.lua"
+
     "MaxLevel"                                            "4"
+    "RequiredLevel"                                       "1"
+    "LevelsBetweenUpgrades"                               "2"
+
     // Casting
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCastRange"                                    "3000"

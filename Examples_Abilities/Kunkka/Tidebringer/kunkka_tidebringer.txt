@@ -1,0 +1,77 @@
+"DOTAAbilities"
+{
+  //=================================================================================================================
+  // Kunkka: Tidebringer
+  //=================================================================================================================
+  "kunkka_tidebringer"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "BaseClass"                                           "ability_lua"
+    "ScriptFile"                                          "abilities/kunkka/kunkka_tidebringer.lua"
+
+    "AbilityTextureName"                                  "kunkka_tidebringer"
+
+    "ID"                                                  "5032" // unique ID number, do not change
+
+    "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+    "AbilityUnitDamageType"                               "DAMAGE_TYPE_PHYSICAL"                              // Unused
+    "AbilityUnitTargetTeam"                               "DOTA_UNIT_TARGET_TEAM_ENEMY"
+    "AbilityUnitTargetType"                               "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+    "AbilityUnitTargetFlags"                              "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+    "SpellImmunityType"                                   "SPELL_IMMUNITY_ENEMIES_YES"
+
+    "MaxLevel"                                            "4"
+    "RequiredLevel"                                       "1"
+    "LevelsBetweenUpgrades"                               "2"
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"                                     "13.0 10.0 7.0 4.0" // Talent special_bonus_unique_kunkka_5
+    "AbilityCastRange"                                    "150"
+    "AbilityCastPoint"                                    "0.0"
+
+    // Precache
+    //-------------------------------------------------------------------------------------------------------------
+    "precache"
+    {
+      "particle" 	"particles/units/heroes/hero_kunkka/kunkka_weapon_tidebringer.vpcf"
+      "particle" 	"particles/units/heroes/hero_kunkka/kunkka_spell_tidebringer.vpcf"
+    }
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"                                        "FIELD_INTEGER"
+        "cleave_starting_width"                           "150"
+        // Allows talent
+      }
+      "02"
+      {
+        "var_type"                                        "FIELD_INTEGER"
+        "cleave_ending_width"                             "500 550 600 650"
+        // Allows talent
+      }
+      "03"
+      {
+        "var_type"                                        "FIELD_INTEGER"
+        "cleave_distance"                                 "650 800 950 1100"
+        // Allows talent
+      }
+      "04"
+      {
+        "var_type"                                        "FIELD_INTEGER"
+        "damage_bonus"                                    "25 50 75 100"
+        // Allows talent
+      }
+      "05"
+      {
+        "var_type"                                        "FIELD_INTEGER"
+        "cleave_damage"                                   "100"
+        "LinkedSpecialBonus"                              "special_bonus_unique_kunkka_4" // Unused, Allows talent
+      }
+    }
+  }
+}
