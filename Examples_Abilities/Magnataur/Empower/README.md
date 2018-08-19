@@ -2,7 +2,7 @@
 
 This is using custom [Cleave Library](../../../Libraries/Cleave/README.md) to not ignore armor on cleave targets.
 
-- [`magnataur.txt`](magnataur.txt) = Modification of `npc_dota_hero_magnataur`
-- [`magnataur_empower.txt`](magnataur_empower.txt) = Ability Definition
+- [`magnataur.kv`](magnataur.kv) = Modification of `npc_dota_hero_magnataur`
+- [`magnataur_empower.kv`](magnataur_empower.kv) = Ability Definition
 - [`magnataur_empower.lua`](magnataur_empower.lua) = Ability Code
 - [`magnataur_empower_tooltips_english.txt`](magnataur_empower_tooltips_english.txt) = English Tooltips

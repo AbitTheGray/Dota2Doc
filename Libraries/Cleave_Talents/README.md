@@ -8,7 +8,7 @@ Is not bugged with Aghanim's Scepter providing both talents.
 
 - [`modifiers_cleave_talents.lua`](modifiers_cleave_talents.lua) = Talent to apply while the talent is active
 - [`modifiers_cleave_talents_onlearn.lua`](modifiers_cleave_talents_onlearn.lua) = Global listener for talent level-up
-- [`cleave_talents.txt`](cleave_talents.txt) = Vanilla Cleave Talents
+- [`cleave_talents.kv`](cleave_talents.kv) = Vanilla Cleave Talents
 
 Add this to your `gamemode.lua` into function `GameMode:OnGameInProgress()`
 ```lua
