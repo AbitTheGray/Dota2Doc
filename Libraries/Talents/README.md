@@ -12,9 +12,9 @@ This is using custom [Cleave Library](../../../Libraries/Cleave/README.md) to no
 Add this to your `addon_unit.lua`
 ```lua
 if IsClient() then -- Load clientside utility lib
-	require("libraries/talents_client")
+  require("libraries/talents_client")
 else
-	require("libraries/talents_server")
+  require("libraries/talents_server")
 end
 ```
 ## Functions
