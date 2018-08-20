@@ -135,11 +135,6 @@
   - ~~[Winger's Curse](Examples_Abilities/Winter_Wyvern/Winters_Curse/README.md)~~
 
 #### Custom
-- Baumi = `npc_dota_hero_baumi`
-  - ~~[Long Range Shipping](Examples_Abilities_Custom/Baumi/Long_Range_Shipping/README.md)~~
-  - ~~[Streamer Aura](Examples_Abilities_Custom/Baumi/Streamer_Aura/README.md)~~
-  - ~~[Skeleton King](Examples_Abilities_Custom/Baumi/Crit_King/README.md)~~
-  - ~~[Good Design](Examples_Abilities_Custom/Baumi/Good_Design/README.md)~~
 
 ### Items
 
