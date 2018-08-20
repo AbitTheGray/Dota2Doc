@@ -1,0 +1,91 @@
+"DOTAAbilities"
+{
+  //=================================================================================================================
+  // Ability: Mirana Starstorm
+  //=================================================================================================================
+  "mirana_starstorm"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "BaseClass"                                           "ability_lua"
+    "ScriptFile"                                          "abilities/mirana/mirana_starstorm.lua"
+
+    "AbilityTextureName"                                  "mirana_starfall"
+
+    "ID"					                                        "5051"
+
+    "AbilityBehavior"				                              "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_AURA"
+    "AbilityUnitDamageType"			                          "DAMAGE_TYPE_MAGICAL"
+    "AbilityUnitTargetTeam"                               "DOTA_UNIT_TARGET_TEAM_ENEMY"
+    "AbilityUnitTargetFlags"                              "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NO_INVIS"
+    "AbilityUnitTargetType"                               "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+    "SpellImmunityType"				                            "SPELL_IMMUNITY_ENEMIES_NO"
+
+    "AbilitySound"                                        "Ability.Starfall"
+    "FightRecapLevel"                                     "1"
+
+    "MaxLevel"                                            "4"
+    "LevelsBetweenUpgrades"                               "2"
+    "RequiredLevel"                                       "1"
+    "HotKeyOverride"                                      "T"
+
+    "HasScepterUpgrade"			                              "1"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastPoint"				                            "0.5"
+    "AbilityCastAnimation"		                            "ACT_DOTA_CAST_ABILITY_1"
+    "AbilityCastRange"                                    "650"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"				                              "12.0"
+    "AbilityDuration"				                              "10.0"
+
+    // Damage
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityDamage"					                              "75 150 225 300"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"				                              "80 105 130 155"
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        // Do not forget to change "AbilityCastRange"
+        // May also want to change "scepter_radius"
+        "var_type"			"FIELD_INTEGER"
+        "radius_primary"	"650"
+      }
+      "02"
+      {
+        "var_type"			"FIELD_INTEGER"
+        "radius_secondary"	"425"
+      }
+      "03"
+      {
+        "var_type"			"FIELD_INTEGER"
+        "secondary_count"	"1"
+      }
+      "04"
+      {
+        "var_type"			"FIELD_FLOAT"
+        "interval_scepter"	"10.0"
+      }
+      "05"
+      {
+        "var_type"			"FIELD_FLOAT"
+        "tick_scepter"	"1"
+      }
+      "06"
+      {
+        "var_type"			"FIELD_INTEGER"
+        "radius_scepter"	"650"
+      }
+    }
+  }
+}

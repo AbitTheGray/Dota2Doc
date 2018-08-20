@@ -107,7 +107,7 @@
   - [Geostrike](Examples_Abilities/Meepo/Geostrike/README.md)
   - [Divided We Stand](Examples_Abilities/Meepo/Divided_We_Stand/README.md)
 - Mirana = `npc_dota_hero_mirana`
-  - ~~[Starfall](Examples_Abilities/Mirana/Starfall/README.md)~~
+  - [Starfall](Examples_Abilities/Mirana/Starfall/README.md)
   - [Sacred Arrow](Examples_Abilities/Mirana/Sacred_Arrow/README.md)
   - ~~[Leap](Examples_Abilities/Mirana/Leap/README.md)~~
   - ~~[Moonlight Shadow](Examples_Abilities/Mirana/Moonlight_Shadow/README.md)~~
