@@ -66,6 +66,7 @@
   - ~~[Unstable Concoction](Examples_Abilities/Alchemist/Unstable_Concoction/README.md)~~
   - ~~[Greevil's Greed](Examples_Abilities/Alchemist/Greevils_Greed/README.md)~~
   - ~~[Give Aghanim's Scepter](Examples_Abilities/Alchemist/Give_Aghanims_Scepter/README.md)~~
+  - ~~[Give Aghanim's Scepter](Examples_Abilities/Alchemist/Give_Aghanims_Scepter_Talents/README.md) (5 levels of Scepter, Gives Talents)~~
   - ~~[Chemical Rage](Examples_Abilities/Alchemist/Chemical_Rage/README.md)~~
 - Ancient Apparition = `npc_dota_hero_ancient_apparition`
   - ~~[Cold Feet](Examples_Abilities/Ancient_Apparition/Cold_Feet/README.md)~~
@@ -138,6 +139,8 @@
  - ~~[Gem of True Sight](Examples_Items/Gem_of_True_sight/README.md)~~
  - ~~[Aegis of the Immortal](Examples_Items/Aegis_of_the_Immortal/README.md)~~
  - ~~[Greevil Taffy](Examples_Items/Greevil_Taffy/README.md)~~
+ - ~~[Aghanim's Scepter](Examples_Items/Aghanims_Scepter/README.md)~~
+ - ~~[Aghanim's Scepter](Examples_Items/Aghanims_Scepter/README.md) (5 levels, 2+ Gives Talents)~~
 
 ## Libraries
 
