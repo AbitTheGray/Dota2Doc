@@ -73,11 +73,12 @@
   - ~~[Ice Vortex](Examples_Abilities/Ancient_Apparition/Ice_Vortex/README.md)~~
   - ~~[Chilling Touch](Examples_Abilities/Ancient_Apparition/Chilling_Touch/README.md)~~
   - ~~[Ice Blast](Examples_Abilities/Ancient_Apparition/Ice_Blast/README.md)~~
-  - ~~[Ice Blast](Examples_Abilities/Ancient_Apparition/Ice_Blast_Imba/README.md) (IMBA)~~
+  - ~~[Ice Blast](Examples_Abilities/Ancient_Apparition/Ice_Blast_Select_Target_Point/README.md) (Select Target Point)~~
 - Anti-Mage = `npc_dota_hero_antimage`
   - ~~[Mana Break](Examples_Abilities/Anti_Mage/Mana_Break/README.md)~~
   - ~~[Blink](Examples_Abilities/Anti_Mage/Blink/README.md)~~
   - ~~[Spell Shield](Examples_Abilities/Anti_Mage/Spell_Shield/README.md)~~
+    - ~~[Spell Shield Reflection](Examples_Abilities/Anti_Mage/Spell_Shield_Reflection/README.md)~~
   - ~~[Mana Void](Examples_Abilities/Anti_Mage/Mana_Void/README.md)~~
 - Io = `npc_dota_hero_wisp`
   - ~~[Teather](Examples_Abilities/Io/Teather/README.md) (Permanent)~~
@@ -126,8 +127,8 @@
   - ~~[Wraithfire Blast](Examples_Abilities/Wraith_King/Wraithfire_Blast/README.md)~~
   - ~~[Vampiric Aura](Examples_Abilities/Wraith_King/Vampiric_Aura/README.md)~~
   - ~~[Mortal Strike](Examples_Abilities/Wraith_King/Mortal_Strike/README.md) (old, no active)~~
-  - ~~[Mortal Strike Skeletons](Examples_Abilities/Wraith_King/Mortal_Strike_Skeletons/README.md) (Gain charges on every X kills of creeps)~~
-  - ~~[Mortal Strike Skeletons](Examples_Abilities/Wraith_King/Mortal_Strike_Skeletons_Crits/README.md) (Gain charges on Crit on creeps and kill them)~~
+    - ~~[Mortal Strike - Skeletons](Examples_Abilities/Wraith_King/Mortal_Strike_Skeletons/README.md) (Gain charges on every X kills of creeps)~~
+    - ~~[Mortal Strike - Skeletons](Examples_Abilities/Wraith_King/Mortal_Strike_Skeletons_Crits/README.md) (Gain charges on Crit on creeps and kill them)~~
   - ~~[Reincarnation](Examples_Abilities/Wraith_King/Reincarnation/README.md)~~
 - Winter Wyvern = `npc_dota_hero_winter_wyvern`
   - ~~[Arctic Burn](Examples_Abilities/Winter_Wyvern/Arctic_Burn/README.md)~~
