@@ -124,8 +124,9 @@
 - Wraith King = `npc_dota_hero_skeleton_king`
   - ~~[Wraithfire Blast](Examples_Abilities/Wraith_King/Wraithfire_Blast/README.md)~~
   - ~~[Vampiric Aura](Examples_Abilities/Wraith_King/Vampiric_Aura/README.md)~~
-  - ~~[Mortal Strike](Examples_Abilities/Wraith_King/Mortal_Strike/README.md) (Kills per skeleton)~~
-  - ~~[Mortal Strike](Examples_Abilities/Wraith_King/Mortal_Strike_CritKing/README.md) (Crit King)~~
+  - ~~[Mortal Strike](Examples_Abilities/Wraith_King/Mortal_Strike/README.md) (old, no active)~~
+  - ~~[Mortal Strike Skeletons](Examples_Abilities/Wraith_King/Mortal_Strike_Skeletons/README.md) (Gain charges on every X kills of creeps)~~
+  - ~~[Mortal Strike Skeletons](Examples_Abilities/Wraith_King/Mortal_Strike_Skeletons_Crits/README.md) (Gain charges on Crit on creeps and kill them)~~
   - ~~[Reincarnation](Examples_Abilities/Wraith_King/Reincarnation/README.md)~~
 - Winter Wyvern = `npc_dota_hero_winter_wyvern`
   - ~~[Arctic Burn](Examples_Abilities/Winter_Wyvern/Arctic_Burn/README.md)~~
