@@ -99,6 +99,7 @@
   - ~~[Feast](Examples_Abilities/Lifestealer/Feast/README.md)~~
   - ~~[Open_Wounds](Examples_Abilities/Lifestealer/Open_Wounds/README.md)~~
   - ~~[Infest](Examples_Abilities/Lifestealer/Infest/README.md)~~
+  - ~~[Assimilate](Examples_Abilities/Lifestealer/Assimilate/README.md)~~
 - Magnus = `npc_dota_hero_magnataur`
   - [Empower](Examples_Abilities/Magnataur/Empower/README.md)
 - Meepo = `npc_dota_hero_meepo`
