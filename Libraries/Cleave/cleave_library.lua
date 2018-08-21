@@ -122,7 +122,6 @@ function PerformCleave(
   end
 
   if teamNumber == nil then
-    --teamNumber = DOTA_TEAM_NEUTRALS
     teamNumber = attacker:GetTeamNumber()
   end
   if position == nil then
@@ -162,7 +161,7 @@ function PerformCleave(
     damageType = DAMAGE_TYPE_PHYSICAL
   end
   if damageFlags == nil then
-    damageFlags = bit.bor(DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION, DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL)
+    damageFlags = bit.bor(DOTA_DAMAGE_FLAG_MAGIC_IMMUNE_ENEMIES, DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION, DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL)
   end
 
   if targetTeam == nil then
