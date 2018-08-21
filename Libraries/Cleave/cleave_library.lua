@@ -161,7 +161,7 @@ function PerformCleave(
     damageType = DAMAGE_TYPE_PHYSICAL
   end
   if damageFlags == nil then
-    damageFlags = bit.bor(DOTA_DAMAGE_FLAG_MAGIC_IMMUNE_ENEMIES, DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION, DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL)
+    damageFlags = bit.bor(DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION, DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL)
   end
 
   if targetTeam == nil then
@@ -171,7 +171,7 @@ function PerformCleave(
     targetUnit = bit.bor(DOTA_UNIT_TARGET_BASIC, DOTA_UNIT_TARGET_HERO)
   end
   if targetFlags == nil then
-    targetFlags = DOTA_UNIT_TARGET_FLAG_NONE
+    targetFlags = DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
   end
 
   local units = FindUnitsInCone(teamNumber, direction, position, cleaveInfo.startRadius, cleaveInfo.endRadius, cleaveInfo.length, nil, targetTeam, targetUnit, targetFlags, FIND_CLOSEST, false)
