@@ -56,7 +56,7 @@ CDOTA_BaseNPC:PerformCleave(
   - `cleaveInfo.length` = float (Optional = `625`)
 - `damage` = int, damage of the cleave (Optional = `0`)
 - `damageType` = `DAMAGE_TYPE_*`, type of damage (Optional = `PHYSICAL`)
-- `damageFlags` = `DOTA_DAMAGE_FLAG_*`, modifications of damage (Optional = `NO_SPELL_AMPLIFICATION | NO_SPELL_LIFESTEAL`)
+- `damageFlags` = `DOTA_DAMAGE_FLAG_*`, modifications of damage (Optional = `MAGIC_IMMUNE_ENEMIES | NO_SPELL_AMPLIFICATION | NO_SPELL_LIFESTEAL`)
 - `targetTeam` = `DOTA_UNIT_TARGET_TEAM_*`, modifications of damage (Optional = `ENEMY`)
 - `targetUnit` = `DOTA_UNIT_TARGET_*` (Optional = `BASIC | HERO`)
 - `targetFlags` = `DOTA_UNIT_TARGET_FLAG_*` (Optional = `NONE`)
