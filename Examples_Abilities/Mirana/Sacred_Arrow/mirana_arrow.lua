@@ -58,7 +58,7 @@ if IsServer() then
 
     if not target:IsMagicImmune() then
       if target:IsCreep() and (not target:IsConsideredHero()) and (not target:IsAncient()) then
-        target:ForceKill( false )
+        target:Kill( self, caster )
       end
 
       -- Traveled distance limited to arrow_max_stunrange
