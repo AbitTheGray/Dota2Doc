@@ -24,10 +24,10 @@
 
 ## Important links
 
-- [npc_heroes.txt](https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/master/game/dota/scripts/npc/npc_heroes.txt)
+- [npc_heroes.txt](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/scripts/npc/npc_heroes.txt)
 - [npc_abilities.txt](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/scripts/npc/npc_abilities.txt)
 - [npc_units.txt](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/scripts/npc/npc_units.txt)
-- [dota_english.txt](https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/master/game/dota/resource/dota_english.txt)
+- [dota_english.txt](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/resource/dota_english.txt)
 - [All Dota 2 Translations](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/game/dota/resource)
 - [Hero Sounds](https://github.com/SteamDatabase/GameTracking-Dota2/tree/master/game/dota/pak01_dir/soundevents/game_sounds_heroes)
 - [dota.fdg](https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/dota.fgd)
